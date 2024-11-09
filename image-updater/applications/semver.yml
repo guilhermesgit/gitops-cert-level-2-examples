@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: follow-semver02
+  name: follow-semver
   namespace: argocd
   annotations:
     argocd-image-updater.argoproj.io/image-list: ghcr.io/guilhermesgit/gitops-cert-level-2-examples:~rc2
