@@ -18,7 +18,7 @@ spec:
       containers:
       - name: webserver-simple
         imagePullPolicy: Always
-        image: ghcr.io/codefresh-contrib/gitops-cert-level-2-examples:latest
+        image: ghcr.io/guilhermesgit/gitops-cert-level-2-examples:rc2
         ports:
         - containerPort: 8080        
 
